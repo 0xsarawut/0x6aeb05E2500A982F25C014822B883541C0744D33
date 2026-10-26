@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 dependencies = [
     "coloredlogs>=15.0.1,<16",
     "cookiecutter>=2.6.0,<3",
-    "filelock>=3.9.0,<4",
+    "filelock>=3.20.3,<4",
     "graphviz>=0.20.1",
     "hypothesis>=6.103.1,<7",
     "networkx>=3.4.2,<4",
@@ -52,7 +52,7 @@ dev = [
     "mypy",
     "pep8-naming",
     "pydocstyle",
-    "pytest>=7,<8",
+    "pytest>=9.0.3,<10",
     "pytest-cov",
     "pytest-mock",
     "pytest-xdist",
